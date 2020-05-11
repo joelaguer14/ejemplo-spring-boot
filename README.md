@@ -96,3 +96,10 @@ De manera predeterminada, el servidor incorporado comienza en el puerto **8080**
 
 > `server.port=8081`
 
+## Probar el test de la aplicación
+
+Para verificar si su aplicación funciona, debe escribir pruebas de unidad e integración para su aplicación. La clase de prueba en src / test / java / com / example / actuatorservice / ActuatorServiceApplicationTests.java asegura que
+
+- Su controlador es receptivo.
+- El endpoint de gestión es receptivo.
+
